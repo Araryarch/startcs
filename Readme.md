@@ -40,7 +40,7 @@ Eksekusi skrip instalasi untuk mengatur lingkungan C#:
 
 ### 5. Gunakan Skrip yang telah terinstall
 
-Eksekusi skrip instalasi untuk mengatur lingkungan C#:
+Eksekusi skrip untuk membuat project C#:
 
 ```sh
 dotnet-ui
