@@ -38,6 +38,14 @@ Eksekusi skrip instalasi untuk mengatur lingkungan C#:
 ./install.sh
 ```
 
+### 5. Gunakan Skrip yang telah terinstall
+
+Eksekusi skrip instalasi untuk mengatur lingkungan C#:
+
+```sh
+dotnet-ui
+```
+
 ## Catatan
 
 - Pastikan Anda memiliki akses **sudo** jika diperlukan.
