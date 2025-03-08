@@ -1,6 +1,6 @@
 # StartCS
 
-StartCS adalah sebuah skrip otomatis untuk mengatur lingkungan pengembangan C# dengan cepat dan mudah. Dengan menggunakan skrip ini, pengguna dapat langsung menginstal dan mengonfigurasi dependensi yang diperlukan untuk memulai proyek C# tanpa harus melakukan setup manual.
+StartCS adalah skrip otomatis untuk mengatur lingkungan pengembangan C# dengan cepat dan mudah. Dengan skrip ini, pengguna dapat langsung menginstal dan mengonfigurasi dependensi yang diperlukan untuk memulai proyek C# tanpa harus melakukan setup manual.
 
 ## Instalasi
 
@@ -24,7 +24,7 @@ cd startcs
 
 ### 3. Beri Izin Eksekusi
 
-Sebelum menjalankan skrip instalasi, pastikan skrip memiliki izin eksekusi:
+Pastikan skrip memiliki izin eksekusi sebelum dijalankan:
 
 ```sh
 chmod +x install.sh
@@ -32,25 +32,35 @@ chmod +x install.sh
 
 ### 4. Jalankan Skrip Instalasi
 
-Eksekusi skrip instalasi untuk mengatur lingkungan C#:
+Jalankan skrip instalasi untuk mengatur lingkungan C#:
 
 ```sh
 ./install.sh
 ```
 
-### 5. Gunakan Skrip yang telah terinstall
+### 5. Gunakan Skrip yang Terinstal
 
-Eksekusi skrip untuk membuat project C#:
+Setelah instalasi selesai, gunakan skrip berikut untuk membuat proyek C# baru:
 
 ```sh
 dotnet-ui
 ```
 
+## Uninstall
+
+Jika ingin menghapus StartCS dari sistem, jalankan perintah berikut:
+
+```sh
+chmod +x uninstall.sh && ./uninstall.sh
+```
+
+Skrip ini akan menghapus semua file terkait yang telah terinstal.
+
 ## Catatan
 
 - Pastikan Anda memiliki akses **sudo** jika diperlukan.
-- Skrip ini akan menginstal dependensi yang diperlukan untuk menjalankan proyek C#.
-- Jika ada masalah saat instalasi, pastikan semua dependensi sistem telah terpasang dengan benar.
+- Skrip ini akan menginstal semua dependensi yang dibutuhkan untuk menjalankan proyek C#.
+- Jika mengalami kendala saat instalasi, pastikan semua dependensi sistem telah terpasang dengan benar.
 
 ## Kontribusi
 
@@ -58,4 +68,4 @@ Jika ingin berkontribusi dalam pengembangan StartCS, Anda dapat melakukan fork r
 
 ## Lisensi
 
-Repositori ini dirilis di bawah lisensi MIT. Silakan gunakan dan modifikasi sesuai kebutuhan.
+Repositori ini dirilis di bawah lisensi MIT. Anda bebas menggunakannya serta memodifikasinya sesuai kebutuhan.
