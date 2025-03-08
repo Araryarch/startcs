@@ -6,6 +6,15 @@ StartCS adalah skrip otomatis untuk mengatur lingkungan pengembangan C# dengan c
 
 Ikuti langkah-langkah berikut untuk menginstal StartCS:
 
+### [Lazy Way] : Full Code to Install
+
+```sh
+git clone https://github.com/Araryarch/startcs.git
+cd startcs
+chmod +x install.sh
+./install.sh
+```
+
 ### 1. Clone Repository
 
 Unduh repositori StartCS ke dalam sistem Anda dengan perintah berikut:
